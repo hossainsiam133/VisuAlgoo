@@ -1,0 +1,18 @@
+import Array from './01_Array/01_Array.jsx'
+import Stack from './02_Stack/02_Stack.jsx'
+import './App.css'
+
+function App() {
+  return (
+    <>
+      <div className="topics">
+        <Array />
+      </div>
+      <div className="topics">
+        <Stack />
+      </div>
+    </>
+  )
+}
+
+export default App
