@@ -1,5 +1,6 @@
 import Array from './01_Array/01_Array.jsx'
 import Stack from './02_Stack/02_Stack.jsx'
+import Queue from './03_Queue/03_Queue.jsx'
 import './App.css'
 
 function App() {
@@ -10,6 +11,9 @@ function App() {
       </div>
       <div className="topics">
         <Stack />
+      </div>
+      <div className="topics">
+        <Queue />
       </div>
     </>
   )
