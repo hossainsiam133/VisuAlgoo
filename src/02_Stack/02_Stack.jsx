@@ -50,7 +50,7 @@ function Stack() {
             <div className="array-card">
                 <div className="array-header">
                     <div className="array-title">Stack</div>
-                    <div className="array-meta">Interactive algorithms</div>
+                    {/* <div className="array-meta">Interactive algorithms</div> */}
                 </div>
 
                 <div className="section-block">

@@ -60,14 +60,14 @@ function LinkedList() {
             <div className="array-card">
                 <div className="array-header">
                     <div className="array-title">Linked List</div>
-                    <div className="array-meta">Interactive algorithms</div>
+                    {/* <div className="array-meta">Interactive algorithms</div> */}
                 </div>
 
                 <div className="section-block">
                     <div className="section-title">Types</div>
                     <div className="button-row">
                         <button className="array-btn" type="button" onClick={() => setView('SingleList')}>
-                            Single Linked List <span className="btn-caret">›</span>
+                            Singly Linked List <span className="btn-caret">›</span>
                         </button>
                         <button className="array-btn" type="button" onClick={() => setView('DoubleList')}>
                             Doubly Linked List <span className="btn-caret">›</span>
