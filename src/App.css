@@ -1,3 +1,19 @@
+.site-footer {
+	background-color: #1a1a1a;
+	color: #ffffff;
+	padding: 20px 0;
+	text-align: center;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-size: 14px;
+	letter-spacing: 0.5px;
+	border-top: 1px solid #333333;
+}
+
+.footer-content p {
+	margin: 0;
+	opacity: 0.85;
+}
+
 .topics {
 	background: #f2f6ff;
 	min-height: auto;
@@ -5,7 +21,7 @@
 	font-family: "Segoe UI", sans-serif;
 }
 
-.topics + .topics {
+.topics+.topics {
 	padding-top: 8px;
 }
 
